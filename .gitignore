@@ -28,5 +28,6 @@ Thumbs.db
 *.npy
 *.npz
 
-# Downloaded Example Models (Optional)
-shadow_hand/
+# Downloaded Example Models
+shadow_hand/*
+!shadow_hand/scene_dual.xml
