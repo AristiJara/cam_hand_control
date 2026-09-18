@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.venv
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDEs & System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# MuJoCo & OpenCV (Output logs, recordings, or datasets)
+*.log
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+
+# Downloaded Example Models (Optional)
+shadow_hand/
